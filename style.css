@@ -172,6 +172,15 @@ nav{
     background-color: var(--Nav);
 }
 
+#map{
+    width: 100vw;
+    height: 100vmin;
+}
+
+.Map{
+    background-color: var(--Header);
+}
+
 .ui-datepicker{
     background-color: var(--Background);
     border-radius: 0;
@@ -188,3 +197,11 @@ nav{
     background-color: var(--Header);
 }
 
+footer{
+    background-color: var(--Header);
+    width: 100vw;
+    padding-block: 9.5vh;
+    text-align: center;
+    color: var(--TextLight);
+    font-size: 3vmin;   
+}
